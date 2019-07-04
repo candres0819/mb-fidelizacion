@@ -1,0 +1,7 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://candres:Candres1992@cluster0-yn3rg.mongodb.net/fidelizacion?retryWrites=true&w=majority
+      database: fidelizacion
+server:
+  port: 8086

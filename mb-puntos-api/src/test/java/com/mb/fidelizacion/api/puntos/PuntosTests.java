@@ -1,4 +1,4 @@
-package com.maynar.fideliza;
+package com.mb.fidelizacion.api.puntos;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -7,10 +7,10 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class FidelizaOfertasApplicationTests {
+public class PuntosTests {
 
-	@Test
-	public void contextLoads() {
-	}
+    @Test
+    public void contextLoads() {
 
+    }
 }

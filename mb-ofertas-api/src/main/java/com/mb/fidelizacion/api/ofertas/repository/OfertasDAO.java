@@ -6,6 +6,8 @@ import java.util.List;
 import com.mb.fidelizacion.api.ofertas.domain.Oferta;
 
 public interface OfertasDAO {
-	public List<Oferta> obtenerTodasOfertas();
-	public List<Oferta> obtenerOfertasMes(Date fecha);
+
+    List<Oferta> obtenerTodasOfertas();
+
+    List<Oferta> obtenerOfertasMes(Date fecha);
 }

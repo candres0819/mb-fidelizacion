@@ -2,44 +2,42 @@ package com.mb.fidelizacion.api.puntos.domain;
 
 public class Cliente {
 
-	private String id;
-	//el email del usuario
-	private String id_usuario;
-	private String puntos = "0";
+    private String id;
+    private String id_usuario;
+    private String puntos = "0";
 
-	public String getPuntos() {
-		return puntos;
-	}
+    public String getPuntos() {
+        return puntos;
+    }
 
-	public String getId() {
-		return id;
-	}
+    public String getId() {
+        return id;
+    }
 
-	public void setId(String id) {
-		this.id = id;
-	}
+    public void setId(String id) {
+        this.id = id;
+    }
 
-	public String getId_usuario() {
-		return id_usuario;
-	}
+    public String getId_usuario() {
+        return id_usuario;
+    }
 
-	public void setId_usuario(String id_usuario) {
-		this.id_usuario = id_usuario;
-	}
+    public void setId_usuario(String id_usuario) {
+        this.id_usuario = id_usuario;
+    }
 
-	public void setPuntos(String puntos) {
-		this.puntos = puntos;
-	}
+    public void setPuntos(String puntos) {
+        this.puntos = puntos;
+    }
 
-	public Cliente(String id) {
-		super();
-		this.id = id;
-	}
+    public Cliente(String id) {
+        super();
+        this.id = id;
+    }
 
-	public Cliente() {
-		super();
-		this.puntos = "0";
-	}
-	
-	
+    public Cliente() {
+        super();
+        this.puntos = "0";
+    }
+
 }

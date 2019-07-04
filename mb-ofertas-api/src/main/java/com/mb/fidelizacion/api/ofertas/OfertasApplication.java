@@ -4,9 +4,9 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class FidelizaOfertasApplication {
+public class OfertasApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(FidelizaOfertasApplication.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(OfertasApplication.class, args);
+    }
 }

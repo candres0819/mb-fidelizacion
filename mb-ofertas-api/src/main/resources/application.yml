@@ -1,0 +1,8 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://candres:Candres1992*@cluster0-yn3rg.mongodb.net/test?retryWrites=true&w=majority
+      database: test
+
+server:
+  port: 8082

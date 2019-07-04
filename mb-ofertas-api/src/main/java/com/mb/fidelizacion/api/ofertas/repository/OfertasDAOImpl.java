@@ -15,7 +15,7 @@ import com.mb.fidelizacion.api.ofertas.domain.Oferta;
 public class OfertasDAOImpl implements OfertasDAO {
 
     @Autowired
-    MongoTemplate mongoTemplate;
+    private MongoTemplate mongoTemplate;
 
     final String COLLECTION = "ofertas";
 

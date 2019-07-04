@@ -5,11 +5,11 @@ import com.mb.fidelizacion.api.puntos.domain.Usuario;
 
 public interface ClienteDAO {
 
-    public Cliente obtenerCliente(Cliente cliente);
+     Cliente obtenerCliente(Cliente cliente);
 
-    public Cliente obtenerClienteEmail(String email);
+     Cliente obtenerClienteEmail(String email);
 
-    public Cliente obtenerClienteUsuario(Usuario user);
+     Cliente obtenerClienteUsuario(Usuario user);
 
-    public Cliente guardarCliente(Cliente cliente);
+     Cliente guardarCliente(Cliente cliente);
 }
